@@ -3,7 +3,7 @@ package com.uptc.dream_analyzer.prototype;import java.util.Objects;
 import com.uptc.dream_analyzer.entity.Dream;
 
 public class DreamPrototype extends Dream implements Cloneable {
-    private RegisterPrototype register;
+    private RegisterPrototype register;  
 
     // Constructor que recibe un Dream y crea un registro asociado
     public DreamPrototype(Dream dream) {
